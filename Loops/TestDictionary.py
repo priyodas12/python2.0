@@ -5,3 +5,6 @@ for key in testDict:
 
 for key in testDict.items():
     print(key)
+
+for key, value in testDict.items():
+    print(key, value)
