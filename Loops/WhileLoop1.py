@@ -2,4 +2,6 @@ x = 10
 
 while x < 20:
     print(f'value of x is {x}')
-    x = x+1
+    x += 2
+else:
+    print(f'x is not less than 20, x= {x}')
