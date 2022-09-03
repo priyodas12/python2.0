@@ -8,3 +8,6 @@ for key in testDict.items():
 
 for key, value in testDict.items():
     print(key, value)
+
+for value in testDict.values():
+    print(value)
