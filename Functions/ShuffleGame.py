@@ -1,11 +1,12 @@
 from random import shuffle
+import emoji
 
 test_list = [0, 1, 0, 0]
 
 
 def shuffle_list(any_list):
     shuffle(any_list)
-    print(any_list)
+    print(f'shuffled list: {any_list}')
     return any_list
 
 
@@ -17,10 +18,10 @@ def start_game(anyList):
     guess_point = int(guess_point_string)
     for num in game_list:
         if game_list.index(1) == guess_point:
-            print("Won the game!")
+            print(f'Won the game: {emoji.emojize(":smile:")}')
             break
         else:
-            print("Lost the game!")
+            print(f'Lost the game: {emoji.emojize(":grin:")}')
             break
 
 
