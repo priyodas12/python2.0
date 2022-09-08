@@ -7,8 +7,8 @@ def five_percent_sum(a, b):
 print(five_percent_sum(34, 46))
 
 
-def six_percent_sum(*args):
-    return sum(args) * 0.06
+def six_percent_sum(*nums):
+    return sum(nums) * 0.06
 
 
 print(six_percent_sum(34, 46, 56, 90, 34))
