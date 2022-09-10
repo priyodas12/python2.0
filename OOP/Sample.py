@@ -1,4 +1,6 @@
 class Dog():
+    species = "mamals"
+
     def __init__(self, breed, age, cityOrigin, isMale):
         self.breed = breed
         self.age = age
@@ -10,4 +12,4 @@ class Dog():
 
 dog = Dog("pomerian", 14, "KOL", True)
 
-print(dog.age, dog.breed, dog.cOrigin, dog.isMale)
+print(dog.age, dog.breed, dog.cOrigin, dog.isMale, dog.species)
