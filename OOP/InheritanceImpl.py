@@ -16,10 +16,11 @@ class Cat(Creature):
         Creature.__init__(self)
         print("CAT CREATED")
 
-    def who_am_i(self):
-        print("i am an Cat")
+    def do_sound(self):
+        print("meow")
 
 
 cat = Cat()
 # print(cat)
 print(cat.who_am_i())
+print(cat.do_sound())
