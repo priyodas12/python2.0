@@ -7,3 +7,7 @@ print(numbers)
 # sorting  in descending
 numbers.sort(reverse=True)
 print(numbers)
+
+# reverse a list
+numbers.reverse()
+print(numbers)

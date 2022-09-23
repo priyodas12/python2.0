@@ -7,3 +7,7 @@ print(numbers)
 # remove specific elements
 numbers.remove(5)
 print(numbers)
+
+# reverse a list
+numbers.reverse()
+print(numbers)
