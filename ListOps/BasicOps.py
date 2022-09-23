@@ -11,5 +11,5 @@ print(friends[-2])
 print(friends[1:])  # from index[1] to rest
 # from index[1] to index[3] where index[3] will be exclusive,list[inclusive:exclusive]
 print(friends[1:3])
-
-print(friends[1:3:2])
+# reverse list
+print(friends[::-1])
