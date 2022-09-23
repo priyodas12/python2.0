@@ -8,6 +8,6 @@ print(numbers)
 numbers.remove(5)
 print(numbers)
 
-# reverse a list
-numbers.reverse()
+# remove all elements
+numbers.clear()
 print(numbers)

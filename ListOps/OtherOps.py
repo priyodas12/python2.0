@@ -11,3 +11,9 @@ print(numbers)
 # reverse a list
 numbers.reverse()
 print(numbers)
+
+# copy of list(shallow copy)
+numbers_copy = numbers.copy()
+numbers_copy.append(20)
+print(numbers)
+print(numbers_copy)
