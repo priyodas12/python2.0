@@ -27,3 +27,9 @@ identaical_elements_2 = [2]*5
 
 concatenated_list = identaical_elements_1+identaical_elements_2
 print(concatenated_list)
+
+# map like operation
+numbers_square_init = list(range(0, 10))
+
+numbers_square_result = [i*i*i for i in numbers_square_init]
+print(numbers_square_result)
