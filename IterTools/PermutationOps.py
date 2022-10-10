@@ -1,7 +1,7 @@
 from itertools import permutations
 
-a = [1, 2, 3]
+a = [1, 2, 3, 4]
 
-result = permutations(a)
+result = permutations(a, 3)
 
 print(list(result))
